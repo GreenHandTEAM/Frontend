@@ -4,12 +4,6 @@
     <div class="submit-form">
       <div *ngIf="!submitted">
         <h1>Añadir/Editar Producto</h1>
-        <div class="form-group">
-          <label for="id_">ID</label>
-          <input type="text" (keypress)="($event.charCode >= 48 && $event.charCode < 58)" class="form-control" id="id_"
-            required [(ngModel)]="product.id_" (focusout)="existPK(product.id_)" name="id_" />
-        </div>
-
 
         <div class="form-group">
           <label for="nombre">NAME</label>
