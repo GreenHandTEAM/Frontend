@@ -10,13 +10,17 @@ import { AppComponent } from './app.component';
 import { AddMaterialComponent } from './components/add-material/add-material.component';
 import { AddProductComponent } from './components/add-product/add-product.component';
 import { ListMaterialComponent } from './components/list-material/list-material.component';
+import { IndexComponent } from './components/index/index.component';
+import { ControlPanelComponent } from './components/control-panel/control-panel.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     AddMaterialComponent,
     AddProductComponent,
-    ListMaterialComponent
+    ListMaterialComponent,
+    IndexComponent,
+    ControlPanelComponent
   ],
   imports: [
     BrowserModule,
